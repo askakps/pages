@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="scroll-text-wrapper">
+        <div class="scroll-text">
+            Акция! При покупке смартфона Samsung Galaxy S23 вы получаете уникальный выбор: Бесплатные наушники Galaxy Buds Pro в подарок! Второй смартфон со скидкой 50%. При покупке двух смартфонов, третий получаете абсолютно бесплатно! 
+        </div>
+    </div>
+    <header class="header">
+      <div class="container">
+        <div class="header-row">
+          <ul class="header__menu">
+            <li>
+              <a href="#about">О телефоне</a>
+            </li>
+            <li>
+              <a href="#choose">Цвета</a>
+            </li>
+            <li>
+              <a href="#form">Заказать</a>
+            </li>
+          </ul>
+          <div class="header__logo">
+            <a href="https://www.samsung.com/kz_ru/" target="_blank">
+                <img src="images/samsung-logo-white.png" alt="samsung-logo-white" />
+            </a>
+          </div>
+          <div class="header__phone">
+            <a href="tel:+7 777 777 77 77">+7-777-777-77-77</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <main class="banner"></main>
+    <div class="container">
+      <section class="about" id="about">
+        <div class="section-title">О телефоне</div>
+        <div class="about-row">
+          <div class="about__column">
+            <div class="about__text">
+              <p>
+                Смартфон S23 Ultra - истинное воплощение передовых технологий и
+                стильного дизайна. Его потрясающий 7.2-дюймовый изогнутый экран
+                с невероятным разрешением 4K OLED переносит вас в мир ярких
+                красок и глубоких контрастов. Сверхбыстрый процессор нового
+                поколения, совершенство в каждой детали: впечатляющая мощность
+                S23 Ultra позволяет без усилий работать с самыми требовательными
+                приложениями.
+              </p>
+              <p>
+                Камера этого телефона — настоящий профессионал в вашем кармане.
+                Система множественных объективов высочайшего разрешения
+                предоставляет возможность создавать снимки, не имеющие аналогов.
+                Благодаря новейшим технологиям обработки изображений ваши
+                фотографии и видео всегда будут выглядеть идеально.
+              </p>
+            </div>
+          </div>
+          <div class="about__column">
+            <div class="about__image">
+              <img src="images/phone1.png" alt="about-phone-image" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="choose" id="choose">
+        <div class="section-title">Выбери цвет по вкусу</div>
+        <div class="choose-row">
+          <div class="choose-column">
+            <div class="choose-column__image">
+              <img src="images/phone1.png" alt="choose-phone-image-1" />
+            </div>
+            <div class="choose-column__title">Cream</div>
+          </div>
+          <div class="choose-column">
+            <div class="choose-column__image">
+              <img src="images/phone2.png" alt="choose-phone-image-2" />
+            </div>
+            <div class="choose-column__title">Phantom Black</div>
+          </div>
+          <div class="choose-column">
+            <div class="choose-column__image">
+              <img src="images/phone3.png" alt="choose-phone-image-3" />
+            </div>
+            <div class="choose-column__title">Lavender</div>
+          </div>
+          <div class="choose-column">
+            <div class="choose-column__image">
+              <img src="images/phone4.png" alt="choose-phone-image-4" />
+            </div>
+            <div class="choose-column__title">Green</div>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    <section class="form" id="form">
+        <div class="container">
+            <section class="form" id="form">
+                  <div class="form-column">
+                    <div class="form__title">Оставить заявку</div>
+                    <form action="#" method="POST">
+                      <input type="text" placeholder="Ваше имя" />
+                      <input type="text" id="phone" placeholder="Номер телефона" />
+                      <div class="form-hint">
+                        В ближайшее время наш менеджер свяжется с Вами
+                      </div>
+                      <button>Заказать</button>
+                    </form>
+                  </div>
+            </section>
+        </div>
+      </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-row">
+        <div class="footer__copyright">
+            Samsung 2023 &copy;
+        </div>
+          <div class="footer__logo">
+            <a href="https://www.samsung.com/kz_ru/" target="_blank">
+                <img src="images/samsung-logo-white.png" alt="samsung-logo-white" />
+            </a>
+          </div>
+          <div class="header__phone">
+            <a href="tel:+7 777 777 77 77">+7-777-777-77-77</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.8/jquery.inputmask.min.js" integrity="sha512-efAcjYoYT0sXxQRtxGY37CKYmqsFVOIwMApaEbrxJr4RwqVVGw8o+Lfh/+59TU07+suZn1BWq4fDl5fdgyCNkw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
